@@ -1,6 +1,6 @@
 import os
 
 try:
-    os.system('cmd /k "ipconfig"')
+    os.system('cmd /k "systeminfo"')
 except:
     print('Incorrect command')
